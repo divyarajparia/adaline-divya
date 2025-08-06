@@ -1,0 +1,15 @@
+{
+  "name": "adaline-workspace",
+  "version": "1.0.0",
+  "description": "A real-time drag-and-drop workspace application with folders and items",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-deps": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["drag-drop", "workspace", "real-time", "react", "node", "socket.io"],
+  "author": "",
+  "license": "MIT"
+}
