@@ -2,23 +2,6 @@
 
 ### Installation and Running
 
-```bash
-#clone this repo
-cd adaline-lite
-
-#install dependencies for both client and server
-npm run install-deps
-
-#start both client and server concurrently
-npm run dev
-```
-
-The application will be at:
-- **Frontend**: http://localhost:3000
-- **Backend**: http://localhost:5000
-
-### option 2 - manual setup
-
 Run client and server separately:
 
 ```bash
